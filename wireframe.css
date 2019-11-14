@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-wrapper {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.nav-link {
+    visibility: hidden;
+    font-size: 20px;
+    text-align: right;
+}
+
+nav {
+    background-color: grey;
+    font-size: 25px;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+}
+
+footer {
+    background-color: gray;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul {
+    margin: 0px;
+}
+
+#burger {
+   position: absolute;
+   right: 0px;
+}
+
+#name {
+    margin-top: 7px;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h1, h3{
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.mock-image {
+    height: 315px;
+    width: 315px;
+    background-color: lightgray;
+    background-image: url('quiz-app-image.png');
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+main {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+}
+
+.project-info {
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (min-width: 625px){
+
+    #burger {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        visibility: visible;
+    }
+
+
+}
