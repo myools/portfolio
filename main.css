@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 0px;
+}
+
+.link-wrapper {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+
+.nav-link {
+    visibility: hidden;
+    font-size: 20px;
+    text-align: right;
+}
+
+.nav-link a {
+    color: #FFD180;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: #FFAB40;
+}
+
+
+nav {
+    background-color: black;
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    margin-left: 40px;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+#burger {
+   position: absolute;
+   right: 0px;
+   color: #FFD180;
+   z-index: 2;
+   font-size: 35px;
+}
+
+#burger:hover {
+    cursor: pointer;
+}
+
+
+#name {
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-p {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+    padding-left: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 0px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h1, h3{
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 3px;
+}
+
+h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.mock-image {
+    height: 315px;
+    width: 315px;
+    background-color: lightgray;
+    background-image: url('quiz-app-image.png');
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 85%;
+}
+
+main {
+    position: relative;
+    top: 50px;
+   
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.project-info {
+    margin-bottom: 50px;
+}
+
+
+
+
+@media only screen and (min-width: 625px){
+
+    #burger {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        visibility: visible;
+    }
+
+    .content-wrapper {
+        width: 306px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .footer-p {
+        padding-left: 0px;
+    }
+
+}
