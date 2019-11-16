@@ -33,7 +33,6 @@ main {
     color: #FFAB40;
 }
 
-
 nav {
     background-color: black;
     font-size: 25px;
@@ -141,6 +140,16 @@ h1 {
     margin-bottom: 15px;
 }
 
+section img {
+    height: 315px;
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
 hr {
     width: 85%;
 }
@@ -148,7 +157,6 @@ hr {
 main {
     position: relative;
     top: 50px;
-   
 }
 
 section {
@@ -158,7 +166,7 @@ section {
 }
 
 .project-info {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .link-wrapper-popup li {
@@ -187,6 +195,38 @@ section {
     color: #FFAB40;
 }
 
+section p a {
+    color: #0091EA;
+}
+
+.project-repo {
+    margin-bottom: 50px;
+}
+
+.about-me {
+    color: #FFD180;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    text-decoration: underline;
+}
+
+.about-me:hover {
+    cursor: pointer;
+}
+
+.popup-ul li {
+    display: list-item;
+}
+
+.popup-ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
 
 @media only screen and (min-width: 625px){
 
@@ -207,6 +247,11 @@ section {
 
     .footer-p {
         padding-left: 0px;
+    }
+
+    section img {
+        width: 630px;
+        height: 630px;
     }
 
 }
