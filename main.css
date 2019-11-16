@@ -161,7 +161,31 @@ section {
     margin-bottom: 50px;
 }
 
+.link-wrapper-popup li {
+    margin-right: 0px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
+.link-wrapper-popup {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    text-align: center;
+    background-color: black;
+    width: 25%;
+    z-index: 2;
+}
+
+.link-wrapper-popup a {
+    color: #FFD180;
+    text-decoration: none;
+}
+
+.link-wrapper-popup a:hover {
+    color: #FFAB40;
+}
 
 
 @media only screen and (min-width: 625px){
