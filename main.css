@@ -12,10 +12,20 @@ main {
     padding: 0px;
 }
 
-.link-wrapper {
+ul {
     position: absolute;
     top: 8px;
     right: 0px;
+}
+
+#name {
+    color: white;
+    z-index: 1;
+    position: relative;
+    margin: 0px;
+    text-align: left;
+    margin-left: 20px;
+    left: 0px;
 }
 
 .nav-link {
@@ -76,6 +86,7 @@ footer img {
 #burger {
    position: absolute;
    right: 0px;
+   top: -7px;
    color: #FFD180;
    z-index: 2;
    font-size: 35px;
@@ -196,7 +207,7 @@ section {
 }
 
 section p a {
-    color: #0091EA;
+    color: #311B92;
 }
 
 .project-repo {
@@ -226,6 +237,7 @@ section p a {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
+    position: static;
 }
 
 @media only screen and (min-width: 625px){
